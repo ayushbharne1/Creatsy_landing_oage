@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #E9E5E2;
+}
+#main #nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    color: #1A3D4C;
+}
+#main #nav h2{
+    font-weight: 900;
+}
+#main #nav h4{
+    font-weight: 500;
+}
+#main #nav #n2{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+#main #nav #icons{
+    font-size: 1.3vw;
+    padding: .5vw;
+    border-radius: 50%;
+}
+#main #nav #icons i{
+    padding: .5vw;
+    border-radius: 50%;
+}
+#main #nav #icons i:hover{
+    background-color:#1A3D4C;
+    color: #fff;
+}
+#main h1{
+    text-align: center;
+    padding-top: 3vw;
+    letter-spacing: 2px;
+    word-spacing: .8vw;
+    color: #1A3D4C; 
+}
+#main #circle{
+    margin: 0 auto;
+    margin-top: 5vw;
+    width: 35vw;
+    height: 35vw;
+    background-color: orangered;
+    border-radius: 50%;
+}
+#main #circle #cutcircle{
+    width: 17vw;
+    height: 14.5vw;
+    background-color: #E9E5E2;
+}
+#main #circle #cutcircle #text{
+    position: absolute;
+    top: 6vw;
+    left: 25vw;
+}
+#main #circle #cutcircle h1{
+    font-size: 30vw;  
+}
+#main #h3text{
+    position: absolute;
+    top: 25vw;
+    left: 15.8vw;
+    transform: rotate(-68deg);
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+#btext{
+    position: absolute;
+    bottom: 7vw;
+    left: 5vw;
+    width: 15vw;
+    text-align: justify;
+}
+#btext button{
+    margin-top: 1vw;
+    padding: .6vw 1.5vw;
+    background-color: #1A3D4C;
+    border-radius: .2vw;
+    border: 1px solid #1A3D4C;
+    color: #fff;
+}
+#bcircle{
+    width: 8.5vw;
+    height: 8.5vw;
+    border-radius: 50%;
+    border: 2px dashed #1A3D4C;
+    background-color: transparent;
+    position: absolute;
+    bottom: 7vw;
+    right: 7vw;
+}
+#bcircle #b2circle{
+    margin: 0 auto;
+    margin-top: .6vw;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(orangered, transparent);
+    padding-top: .7vw;
+}
+#bcircle #b2circle #imgcircle{
+    height: 5.6vw;
+    width: 5.6vw;
+    border-radius: 50%; 
+    
+    margin-left: .7vw;
+}
+#bcircle #b2circle .a{
+    background-image: url(imgman.png);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+#mainimg{
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+#mainimg img{
+    width: 63vw;
+}
