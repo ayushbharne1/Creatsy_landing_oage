@@ -38,6 +38,7 @@ html,body{
     font-size: 1.3vw;
     padding: .5vw;
     border-radius: 50%;
+    transition: .7s;
 }
 #main #nav #icons i{
     padding: .5vw;
